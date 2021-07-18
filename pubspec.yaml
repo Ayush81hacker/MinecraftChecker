@@ -1,0 +1,17 @@
+name: minecraft_checker
+description: A project built in dart to check combos for minecraft hits.
+version: 1.0.0
+homepage: https://github.com/BLUE-DEVIL1134/MinecraftChecker
+icon: ./icon.ico
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  uuid: ^3.0.4
+  http: ^0.13.3
+  colorize: ^3.0.0
+
+dev_dependencies:
+  pedantic: ^1.10.0
+  test: ^1.16.0
